@@ -1,92 +1,98 @@
-gsap.to("#b1h3-div h3",{
+gsap.registerPlugin();
+var tl = gsap.timeline({
+    repeat :-1,
+})
+tl
+.to("#b1h3-div h3",{
     duration : 2,
     top : 0,
     stagger : 2,
     ease : Expo.easeInOut
-})
-gsap.to("#b1h3-div h3",{
+},'same')
+.to("#b1h3-div h3",{
     delay : 2,
     top : "-100%",
     stagger : 2,
     ease : Expo.easeInOut
-})
+},'same')
 
 
-gsap.to("#b2 .b2-class",{
+.to("#b2 .b2-class",{
         duration : 2,
         left : 0,
         stagger : 2,
         ease : Expo.easeInOut
-})
+},'same')
 
 
-gsap.to("#b3 .b3-class",{
+.to("#b3 .b3-class",{
     duration : 2,
     top : 0,
     stagger : 2,
      ease : Expo.easeInOut
-})
+},'same')
 
 
-gsap.to("#b3 .b3p2-class",{
+.to("#b3 .b3p2-class",{
     duration : 2,
     left : 0,
     stagger : 2,
     ease : Expo.easeInOut
-})
+},'same')
 
 
-gsap.to("#last-div .last",{
+.to("#last-div .last",{
     duration : 2,
     top : 0,
     stagger : 2,
     ease : Expo.easeInOut
-})
-gsap.to("#last-div .last",{
+},'same')
+.to("#last-div .last",{
     delay : 2,
     top : "-100%",
     stagger : 2,
     ease : Expo.easeInOut
-})
+},'same')
 
 
-gsap.to("#dots .dot",{
+.to("#dots .dot",{
     duration : 1.5,
     stagger : 1.5,
     ease : Expo.easeInOut,
     backgroundColor : "Red"
-})
-gsap.to("#dots .dot",{
+},'same')
+.to("#dots .dot",{
     delay : 2.5,
     stagger : 2.5,
     ease : Expo.easeInOut,
     backgroundColor : " rgba(255, 255, 255, 0.472)"
-})
+},'same')
 
 
-gsap.to("#nav .circle",{
+.to("#nav .circle",{
     duration : 1,
     stagger : 2,
     ease : Expo.easeInOut,
     backgroundColor : "Red"
-})
+},'same')
 
-gsap.to("#bottom1 h1",{
+.to("#bottom1 h1",{
     duration : 2,
     top : 0,
     stagger : 2,
     ease : Expo.easeInOut
-})
-gsap.to("#bottom1 h1",{
+},'same')
+.to("#bottom1 h1",{
     delay : 2,
     top : "-100%",
     stagger : 2,
     ease : Expo.easeInOut
-})
+},'same')
 
-gsap.to(".top-pic",{
+.to(".top-pic",{
     duration : 2,
     left : 0,
     stagger : 2,
     ease : Expo.easeInOut
-})
+},'same')
+
